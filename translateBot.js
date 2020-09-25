@@ -6,8 +6,14 @@ var bot = mp.createClient({
   username: "yeetBot",
   version: "1.15.2"
 });
-//test
-
+/* Example for premium/online mode servers (Note that this is not a valid account)
+var bot = mp.createClient({
+  host: "mc.hypixel.net",
+  port: 25565
+  username: "minecraft.email@gmail.com",
+  password: "minecraft account password",
+  version: "1.15.2"
+*/
 bot.on("login", () => {
   console.log("logged in");
 });
